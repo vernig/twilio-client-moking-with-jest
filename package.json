@@ -1,8 +1,12 @@
 {
   "name": "twilio-client-moking-with-jest",
   "version": "1.0.0",
-  "description": "Unit test Twilio client with Jest ",
-  "main": "index.js",
+  "description": "Mock Twilio client in unit testing with Jest",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vernig/twilio-client-moking-with-jest.git"
+  },
+  "main": "send.js",
   "scripts": {
     "test": "jest"
   },
@@ -14,5 +18,9 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "twilio": "^3.46.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/vernig/twilio-client-moking-with-jest/issues"
+  },
+  "homepage": "https://github.com/vernig/twilio-client-moking-with-jest#readme"
 }

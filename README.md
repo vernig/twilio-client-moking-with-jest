@@ -1,4 +1,4 @@
-# Mock twilio client with Jest 
+# Mock Twilio client with Jest 
 
 This repo shows how to mock Twilio client in testing with jest
 
@@ -11,7 +11,8 @@ node send <sender_number> <recipient_number>
 
 # Test
 
-To test the module `twilio-sendSMS` use: 
+To test the module `twilio-sendSMS` with Jest use: 
 ```
-node test
+yarn test
 ```
+No message should be sent. 
